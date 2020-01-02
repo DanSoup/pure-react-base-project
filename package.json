@@ -18,14 +18,15 @@
   },
   "homepage": "https://github.com/DanSoup/ideas-hub#readme",
   "babel": {
-    "presets" : [
+    "presets": [
       "@babel/preset-env",
       "@babel/preset-react"
     ]
   },
   "dependencies": {
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.7.5",
