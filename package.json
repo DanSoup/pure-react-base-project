@@ -1,7 +1,7 @@
 {
-  "name": "idea-hub",
+  "name": "pure-react-base-project",
   "version": "1.0.0",
-  "description": "Hub for my ideas",
+  "description": "A lightweight start for a react project",
   "main": "index.js",
   "scripts": {
     "create": "webpack",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DanSoup/ideas-hub.git"
+    "url": "git+https://github.com/DanSoup/pure-react-base-project.git"
   },
   "author": "Dan Soup (Daniel Thomas)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DanSoup/ideas-hub/issues"
+    "url": "https://github.com/DanSoup/pure-react-base-project/issues"
   },
-  "homepage": "https://github.com/DanSoup/ideas-hub#readme",
+  "homepage": "https://github.com/DanSoup/pure-react-base-project#readme",
   "babel": {
     "presets": [
       "@babel/preset-env",
