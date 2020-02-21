@@ -1,17 +1,11 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 const MainPage = (props) => {
 
-  return <React.Fragment><h1>
-      william ruusic
-    </h1>
-  </React.Fragment>
+  return <>
+    Base React Project
+  </>
 
 }
-
-MainPage.propTypes = {
-
-};
 
 export default MainPage;
