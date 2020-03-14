@@ -4,7 +4,7 @@ import {BrowserRouter} from 'react-router-dom';
 import './normalize.css';
 import './index.css';
 
-import MainPage from './MainPage'
+import MainPage from './components/MainPage/MainPage.js'
 
 class App extends Component {
   render () {
