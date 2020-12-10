@@ -10,7 +10,8 @@ module.exports = {
   module: {
       rules: [
           {test: /\.(js)$/, use:'babel-loader'},
-          {test: /\.css$/, use:['style-loader', 'css-loader']},
+          {test: /\.css$/i, use:['style-loader', 'css-loader', 'sass-loader']},
+          {test: /\.s[ac]ss$/i, use:['style-loader', 'css-loader', 'sass-loader']},
           {test: /\.(png|jpe?g|gif)$/i, use:['file-loader']}
       ]
   },

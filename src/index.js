@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter} from 'react-router-dom';
 import './normalize.css';
-import './index.css';
+import './index.scss';
 
 import MainPage from './components/MainPage/MainPage.js'
 
