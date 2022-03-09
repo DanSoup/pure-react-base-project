@@ -3,7 +3,7 @@ version: 0.2
 env:
   variables:
     BS_FOLDER: "apps"
-    BS_URL: "pure-react-base-project"
+    BS_URL: "pure-base-react-project"
 
 phases:
   install:
