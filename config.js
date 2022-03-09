@@ -2,7 +2,7 @@ const fs = require('fs');
 
 const config = {
   BS_FOLDER: "apps",
-  BS_URL: "pure-base-react-project"
+  BS_URL: "pure-react-base-project"
 };
 
 let bs = fs.readFileSync('./buildspec.yml', 'UTF8');
