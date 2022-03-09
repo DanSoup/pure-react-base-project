@@ -8,7 +8,7 @@ const MainPage = (props) => {
   return <>
     <Switch location={location}>
       <Route exact path="/">
-        Base React Project
+        Base React Project - 1
         <Link to="/path">PATH</Link>
       </Route>
       <Route path="/path">
