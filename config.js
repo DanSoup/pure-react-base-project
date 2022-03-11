@@ -9,7 +9,6 @@ let bs = fs.readFileSync('./buildspec.yml', 'UTF8');
 
 Object.entries(config).forEach(([key, value]) => {
   const reg = new RegExp(key + ': ".*?"');
-  console.log(reg);
   bs = bs.replace(reg, key + ': "' + value + '"');
 });
 
