@@ -6,13 +6,21 @@ const MainPage = (props) => {
   let location = useLocation();
 
   return <>
+    <header>
+      <h1>Pure React Base Project</h1>
+    </header>
+    <nav>
+      <Link to="/path">PATH</Link>
+    </nav>
     <Switch location={location}>
       <Route exact path="/">
-        Base React Project - 1
-        <Link to="/path">PATH</Link>
+        
       </Route>
       <Route path="/path">
         Path
+        <Route path="/path/blah">
+          Blah
+        </Route>
       </Route>
       <Route path="*">
         404
