@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
+import {createRoot} from 'react-dom/client';
 import {BrowserRouter} from 'react-router-dom';
 import './normalize.css';
 import './index.scss';
@@ -14,4 +14,6 @@ class App extends Component {
   };
 }
 
-ReactDOM.render(<App/>, document.getElementById('app'));
+const container = document.getElementById('app');
+const root = createRoot(container);
+root.render(<App/>);
