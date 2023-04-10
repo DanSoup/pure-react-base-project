@@ -49,8 +49,7 @@ const MainPage = (props) => {
         <Route path="/todo">
           <>
             <ul>
-              <li>Configure Jest and add some default tests.</li>
-              <li>Come up with a better way to "clone" the project to create a new project.</li>
+              <li>Better.</li>
             </ul>
           </>
         </Route>
